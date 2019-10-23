@@ -39,6 +39,7 @@ $ Rscript $PURECN/NormalDB.R --outdir $OUT_REF \
     --genome hg19 --normal_panel $NORMAL_PANEL --assay agilent_v6
 ```
 
+
 `r Biocpkg("PureCN")` 1.10 introduced a completely new normal database format with
 several important improvements such as not splitting the database by sample sex
 for the normalization of autosomes. It is therefore necessary (not only recommended)
